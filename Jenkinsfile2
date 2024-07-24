@@ -4,7 +4,7 @@ pipeline {
    foo = "bar"
  }
   stages {
-    stage ('Print environment variable'){
+    stage('Print environment variable'){
     environment {
       NAME = "Alan"
     }
