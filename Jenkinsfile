@@ -7,8 +7,11 @@ pipeline {
       }
     }
    stage(' Environment variables') {
+
      steps{
        sh "printenv"
 
   }
+}
+}
 }
