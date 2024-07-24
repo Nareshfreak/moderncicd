@@ -6,5 +6,9 @@ pipeline {
         echo $GIT_BRANCH
       }
     }
+   stage(' Environment variables')
+     steps{
+       sh "printenv"
+
   }
 }
