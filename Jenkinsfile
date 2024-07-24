@@ -9,5 +9,10 @@ pipeline {
 
   }
 }
+    stage('Print Branch name') {
+      steps {
+        echo  "${GIT_BRANCH}"
+      }
+    }
 }
 }
